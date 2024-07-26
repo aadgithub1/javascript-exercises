@@ -1,9 +1,5 @@
 const getTheTitles = function(bookObjects) {
-    let titlesArray = []
-    bookObjects.forEach(book => {
-        titlesArray.push(book.title)
-    });
-    return titlesArray
+    return bookObjects.map((book) => (book.title))
 };
 
 // Do not edit below this line
